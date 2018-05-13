@@ -3,6 +3,8 @@
   tasks:
     - name: Install git
       apt: name=git state=present
+    - name: Install chromium-browser
+      apt: name=chromium-browser state=present
     - name: Install apache2  
       apt: name=apache2 state=present
     - name: Install mysql-server
