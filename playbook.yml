@@ -3,15 +3,24 @@
   tasks:
     - name: Install git
       apt: name=git state=present
+
     - name: Install docker.io
       apt: name=docker.io state=present
+
     - name: Install tmux
       apt: name=tmux state=present
+
     - name: Install chromium-browser
       apt: name=chromium-browser state=present
+
     - name: Install gimp
       apt: name=gimp state=present
+
+    - name: Install mysql-workbench
+      apt: name=mysql-workbench state=present
+
     - name: Install apache2  
       apt: name=apache2 state=present
+
     - name: Install mysql-server
       apt: name=mysql-server state=present
